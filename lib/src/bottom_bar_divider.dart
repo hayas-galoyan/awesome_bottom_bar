@@ -33,7 +33,7 @@ class BottomBarDivider extends StatefulWidget {
   /// enable Divider
   final StyleDivider styleDivider;
   final double? dividerHeight;
-  final Color dividerBackgroundColor;
+  final Color? dividerBackgroundColor;
 
   final Duration? duration;
   final Curve? curve;
@@ -60,7 +60,7 @@ class BottomBarDivider extends StatefulWidget {
       this.countStyle,
       this.styleDivider = StyleDivider.top,
       this.dividerHeight = 4,
-      this.dividerBackgroundColor = Colors.transparent,
+      this.dividerBackgroundColor,
       this.duration,
       this.curve,
       this.animated = true,
